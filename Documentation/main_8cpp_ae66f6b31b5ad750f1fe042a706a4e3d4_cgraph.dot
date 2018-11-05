@@ -1,0 +1,19 @@
+digraph "main"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="phonebook::add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classphonebook.html#a67ce55f31adef5dc1ccee06133c98869",tooltip="This method creates a memory for structure variable and takes input from user and add it to our linke..."];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="phonebook::display",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classphonebook.html#a5780611b28d627a104ccb6fdd3e47992",tooltip="This method is used to display contacts i:e the content of our linked list. "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="phonebook::searchwithname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classphonebook.html#a35586be10b9aa0145034358429541f54",tooltip="This method is used to search a contact with specific name. "];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="phonebook::searchwithnumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classphonebook.html#ad2233d9b14626eb17ffe1ae7d2ea0583",tooltip="This method is used to search a contact with a number. "];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="phonebook::delete1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classphonebook.html#a4b115240b2b29f8bfa2e46bab87bec4d",tooltip="This method is used to delete a contact from linked list. "];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="phonebook::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classphonebook.html#a6298dc6538764b84ee5c8a868747946e",tooltip="This method is used to update/edit a contact details. "];
+}
